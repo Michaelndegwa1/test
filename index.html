@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>LuxeLocks Salon</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-[#eaf3e0] min-h-screen flex items-center justify-center">
+  <div class="rounded-3xl shadow-lg w-[1100px] bg-[#eaf3e0] border-4 border-[#b7c9a6] p-6">
+    <!-- Top Bar -->
+    <div class="flex items-center justify-between px-8 pt-4 pb-2 bg-[#4b6b3c] rounded-2xl">
+      <div class="flex items-center gap-3">
+        <img src="https://img.icons8.com/ios-filled/50/4b6b3c/cat.png" alt="Logo" class="w-8 h-8 bg-white rounded-full p-1">
+        <span class="text-2xl font-serif text-[#2c3e1f]">LuxeLocks Salon</span>
+      </div>
+      <div class="flex items-center gap-8">
+        <nav class="flex gap-8 text-[#eaf3e0] font-medium">
+          <a href="#" class="hover:text-[#f9a94a] transition">Home</a>
+          <a href="#" class="hover:text-[#f9a94a] transition">Services</a>
+          <a href="#" class="hover:text-[#f9a94a] transition">Salon</a>
+          <a href="#" class="hover:text-[#f9a94a] transition">Gift Card</a>
+        </nav>
+        <button class="bg-[#f9a94a] text-white px-6 py-2 rounded-full font-semibold shadow hover:bg-[#e88c1a] transition flex items-center gap-2">
+          Sign in
+          <span class="w-2 h-2 bg-white rounded-full"></span>
+        </button>
+      </div>
+    </div>
+    <!-- Main Content -->
+    <div class="flex gap-8 px-8 py-8 bg-[#f6fff0] rounded-3xl mt-6">
+      <!-- Left Section -->
+      <div class="flex-1">
+        <h1 class="text-5xl font-serif text-[#2c3e1f] mb-6 leading-tight">Beauty comes first, style<br>follows every step.</h1>
+        <p class="text-[#2c3e1f] mb-8 text-lg">Whether it’s a quick touch-up or a full transformation, we’re here to bring your unique style to life.</p>
+        <!-- Search Bar -->
+        <div class="flex items-center bg-white rounded-full shadow px-2 py-2 mb-4 border-2 border-[#eaf3e0]">
+          <button class="bg-[#4b6b3c] text-white px-6 py-2 rounded-full font-semibold mr-2 shadow hover:bg-[#355027] transition">Home</button>
+          <button class="bg-[#eaf3e0] text-[#4b6b3c] px-6 py-2 rounded-full font-semibold mr-2 shadow hover:bg-[#d1e7c6] transition">Institute</button>
+          <input type="text" placeholder="Search services" class="flex-1 px-4 py-2 bg-transparent outline-none text-[#2c3e1f] text-lg">
+          <button class="bg-[#f9a94a] p-3 rounded-full hover:bg-[#e88c1a] transition flex items-center justify-center">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-4.35-4.35M17 11a6 6 0 11-12 0 6 6 0 0112 0z" /></svg>
+          </button>
+        </div>
+        <div class="flex items-center gap-2 mt-2">
+          <span class="bg-[#2c3e1f] text-white px-2 py-1 rounded-full text-xs font-bold">★</span>
+          <span class="text-[#2c3e1f] text-sm">On Trusted Pilot <span class="font-bold">150+ Reviews</span></span>
+        </div>
+      </div>
+      <!-- Right Recommendation Card -->
+      <div class="w-[350px] bg-white rounded-2xl shadow-lg overflow-hidden relative">
+        <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=400&q=80" alt="Recommended" class="w-full h-56 object-cover">
+        <div class="absolute top-0 left-0 w-full h-full bg-gradient-to-t from-[#f9a94a]/70 to-transparent"></div>
+        <div class="absolute bottom-0 left-0 w-full p-6">
+          <h2 class="text-white text-2xl font-serif mb-2">Recommended</h2>
+          <div class="bg-[#2c3e1f]/80 rounded-lg p-4">
+            <div class="flex items-center justify-between">
+              <span class="text-white font-semibold text-lg">Deep Conditioning Treatments</span>
+              <span class="text-[#f9a94a] text-xs flex items-center gap-1">★ <span>(2.3k+)</span></span>
+            </div>
+            <div class="text-[#eaf3e0] text-xs mt-1">Beause Monde du Esthétique</div>
+            <div class="text-[#eaf3e0] text-xs">Montmartre & Sacré-Cœur Basilica (1km away)</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer Section -->
+    <div class="bg-[#355027] rounded-2xl mt-8 px-8 py-8 flex flex-col">
+      <div class="flex items-center justify-between">
+        <div>
+          <h2 class="text-5xl font-serif text-[#f9a94a] mb-2">Lifestyle <span class="italic text-white">& Wellness</span></h2>
+          <button class="bg-[#f9a94a] text-white px-8 py-3 rounded-full font-semibold shadow hover:bg-[#e88c1a] transition flex items-center gap-2 text-lg mb-4">
+            Book Now
+            <span class="w-6 h-6 bg-white rounded-full flex items-center justify-center">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-[#f9a94a]" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14M12 5l7 7-7 7" /></svg>
+            </span>
+          </button>
+          <div class="flex gap-4 mt-2">
+            <a href="#" class="text-white hover:text-[#f9a94a] transition-colors duration-200">
+              <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.04c-5.5 0-9.96 4.46-9.96 9.96 0 4.41 3.6 8.06 8.06 8.96v-6.34h-2.43v-2.62h2.43v-2c0-2.4 1.44-3.72 3.64-3.72 1.06 0 2.17.19 2.17.19v2.39h-1.22c-1.2 0-1.57.75-1.57 1.52v1.62h2.67l-.43 2.62h-2.24v6.34c4.46-.9 8.06-4.55 8.06-8.96 0-5.5-4.46-9.96-9.96-9.96z"/></svg>
+            </a>
+            <a href="#" class="text-white hover:text-[#f9a94a] transition-colors duration-200">
+              <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M22.46 6c-.77.35-1.6.59-2.47.69a4.3 4.3 0 001.88-2.37c-.83.49-1.75.85-2.72 1.05a4.28 4.28 0 00-7.29 3.9c-3.56-.18-6.72-1.88-8.83-4.47a4.28 4.28 0 001.32 5.71c-.7-.02-1.36-.21-1.94-.53v.05a4.28 4.28 0 003.43 4.19c-.33.09-.68.14-1.04.14-.25 0-.49-.02-.73-.07a4.29 4.29 0 004 2.97A8.6 8.6 0 012 19.54a12.13 12.13 0 006.56 1.92c7.88 0 12.2-6.53 12.2-12.2 0-.19-.01-.37-.02-.56A8.72 8.72 0 0024 4.59a8.48 8.48 0 01-2.54.7z"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="flex items-center gap-8">
+          <div class="flex flex-col items-center">
+            <div class="bg-[#4b6b3c] p-4 rounded-full mb-2 hover:bg-[#355027] transition">
+              <img src="https://img.icons8.com/ios-filled/50/f9a94a/scissors.png" class="w-8 h-8" alt="Hairdressing">
+            </div>
+            <span class="text-[#eaf3e0] text-lg">Hairdressing</span>
+          </div>
+          <div class="flex flex-col items-center">
+            <div class="bg-[#4b6b3c] p-4 rounded-full mb-2 hover:bg-[#355027] transition">
+              <img src="https://img.icons8.com/ios-filled/50/f9a94a/spa.png" class="w-8 h-8" alt="Well Massage">
+            </div>
+            <span class="text-[#eaf3e0] text-lg">Well Massage</span>
+          </div>
+          <div class="flex flex-col items-center">
+            <div class="bg-[#4b6b3c] p-4 rounded-full mb-2 hover:bg-[#355027] transition">
+              <img src="https://img.icons8.com/ios-filled/50/f9a94a/eye.png" class="w-8 h-8" alt="Eye Care">
+            </div>
+            <span class="text-[#eaf3e0] text-lg">Eye Care</span>
+          </div>
+          <div class="flex flex-col items-center">
+            <div class="bg-[#4b6b3c] p-4 rounded-full mb-2 hover:bg-[#355027] transition">
+              <img src="https://img.icons8.com/ios-filled/50/f9a94a/nail-polish.png" class="w-8 h-8" alt="Nail Beauty">
+            </div>
+            <span class="text-[#eaf3e0] text-lg">Nail Beauty</span>
+          </div>
+        </div>
+      </div>
+      <div class="flex items-center mt-8">
+        <span class="bg-white text-[#2c3e1f] px-4 py-2 rounded-full text-lg font-bold flex items-center gap-2 shadow">
+          <svg class="w-6 h-6 text-[#2c3e1f]" fill="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><text x="12" y="16" text-anchor="middle" fill="#f9a94a" font-size="12" font-family="Arial" dy=".3em">*</text></svg>
+          On Trusted Pilot <span class="font-bold">150+ Reviews</span>
+        </span>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
